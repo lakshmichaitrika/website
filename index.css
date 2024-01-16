@@ -1,345 +1,78 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
+:root {
+    --main-color: #FE043C;
+    --sec-color: #35cd8c;
+}
 
-*{
-   
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    
-    
-    
-}
-
-.container{
-    padding: 20px;
-    background-color: #191822;
-    width: 100vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-    
-}
-
-
-
-.card1{
-    margin: 50px;
-    position: relative;
-        background-image: url('bg.png');
-        background-size: cover;
-        display: flex;
-        flex-wrap: wrap;
-        width: 80vw;
-       
-}
-
-.text{
-    padding: 20px;
-    color: aliceblue;
-}
-
-.description{
-    margin-top: 50px;
-    line-height: 20px;
-    margin: 10px;
-}
-
-
-
-.content{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.artwork{
-    height: 80vh;
-    
-}
-
-.header{
-    display: flex;
-    justify-content: space-around;
     list-style-type: none;
-    position: absolute;
-    right :0px;
-    width: 70%;
-    margin: 25px;
-    
-   
-}
-
-a{
-    color: white;
-    color: white;
     text-decoration: none;
-    padding: 10px;
-    
-    
+    font-family: "poppins", Sans-Serif;
 }
 
-a:hover{
-   background-image: url("i.png");
-   border:1px solid;
-  
-   background-size: cover;
-
-    border-right: 0px;
-   border-left: 0px;
-   border-top: 0px;
-    border-color: #E67D1A;
+header {
+    position: absolute;
+    padding: 0em 2rem;
+    left: 0;
+    top: 1em;
+    right: 0;
+    z-index: 20;
 }
 
-
-
-.bottom{
-    display: flex;
-    width:70vw ;
-    justify-content: space-between;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.para{
-    margin-top: 20px;
-}
-
-.text-contents{
-  padding: 10px;
-
-}
-
-.card2{
-   
-    background-image: url('bgcarg.png');
-    background-size: cover;
-    width: 80vw;
-    display: flex;
-    color: white;
-
-}
-
-
-.button{
-    background-image: url("b.png");
-    background-size: cover;
-    background-color:transparent;
-    border: 0px;
-    height: 69px;
-    width: 248px;
-    
-}
-
-
-
-.trans-button{
-    background-image: url("buttonbg.png");
-    background-size: cover;
-    height: 69px;
-    width: 248px;
-    border: 0px;
-    background-color:transparent;
-}
-
-.card3{
-    margin: 50px;
-    display: flex;
-    padding: 10px;
-   
-
-}
-
-.inner-card{
-    margin: 10px;
-    background-image: url('imagebg.png');
-    background-size: cover;
-    height: 60vh;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    color: white;
-
-}
-
-.inner-card-4{
-    display: flex;
-
-}
-
-.inner4{
-    margin: 10px;
-    display: flex;
-    width: 30vw;
-    padding: 20px;
-}
-
-.part-1{
-    margin: 10px;
-}
-
-.part-2{
-    margin: 10px;
-}
-
-.inner4{
-    background-image: url("bbg.png");
-    background-size: cover;
-    height: 200px;
-    width: 500px;
-    padding: 20px;
-   
-}
-
-.content-4 a{
-    color: #E67D1A;
-    padding: 0px;
-}
-
-
-.vector{
-    align-self: flex-end;
-}
-
-.card4{
-    margin: 50px;
-   width: 80vw;
-   padding: 10px;
-
-
-
-}
-
-.content-4 h1{
-font-size: 22px;
-color: white;
-
-}
-
-.content-4 p{
-    font-size: 12px;
-    line-height: 19px;
-    color: rgb(212, 207, 197);
-}
-.heading{
-    text-align: center;
-    color: aliceblue;
-}
-
-.num{
-    height: 100px;
-    width: 100px;
-}
-
-.computer{
-    height: 400px;
-}
-
-.card5{
-    display: flex;
-    width: 80vw;
-    margin: 10px;
-    justify-content: center;
-}
-
-.inner{
-    padding: 10px;
-}
-
-.inner h1{
-font-size: 22px;
-color: #F47C0C;
-text-align: center;
-}
-
-.inner p{
-    font-size: 16px;
-    width: 30vw;
-    color: aliceblue;
-    text-align: center;
-    line-height: 32px;
-}
-
-.card6{
-    display: flex;
-    border: 5px solid aliceblue;
-    width: 80vw;
-    padding: 10px;
-}
-
-.card{
-    background-image: url("bbg.png");
-    width: 50vw;
-    background-size: cover;
-    padding: 20px;
-    height: 30vh;
-}
-
-.card h1{
-    color: #F47C0C;
-    margin-bottom: 10px;
-}
-.card p{
-    color: aliceblue;
-    line-height: 40px;
-}
-.image-card{
-    background-image: url("frame.png");
-    background-size: cover;
-    width: 50vw;
+.nav-inner,
+.nav-menu ul {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
-.image-card img{
-    height: 80px;
-    width: 70px;
+.nav-inner {
+    justify-content: space-between;
 }
 
-.card7{
-    background-image: url("bgcarg.png");
-    background-size: cover;
-   align-items: center;
-    height: 50vh;
-    width: 80vw;
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+.nav-menu li {
+    margin-right: 2rem;
 }
 
-.card7 p{
-    color: aliceblue;
+.nav-menu li:last-child {
+    margin-right: 0;
 }
 
-.list-text{
-    color: aliceblue;
-    display: flex;
-    padding: 10px;
-    margin-bottom: 50px;
-   
+.nav-menu a {
+    color: #fff;
+    display: block;
+    padding: 2rem 0rem;
+    text-transform: uppercase;
 }
 
-.list-text div{
-    margin-right: 10px;
+.nav-menu a:hover {
+    color: #d0b200;
+    
 }
 
-.list-text div h1{
-    font-size: 27px;
+a.active {
+    color: #d0b200;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #2C3D4C;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    background-image: url("image\Vector (1).png");
+    
+}
+
+.button{
     margin: 10px;
-}
-
-li{
-    list-style-type: none;
-    font-size: 12px;
-    margin-bottom: 10px;
-}
-
-i{
-    margin-top: 10px;
-    display: flex;
-    font-size: 30px;
-    color: gray;
 }
